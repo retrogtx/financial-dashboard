@@ -1,4 +1,5 @@
 import { sql } from '@vercel/postgres';
+// Fetch the last 5 invoices, sorted by date
 import {
   CustomerField,
   CustomersTableType,
